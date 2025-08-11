@@ -280,3 +280,32 @@ footer {
     .info-box h3 { font-size: 1.2rem; }
     #about { padding: 4em 5%; }
 }
+/* MUSIC TOGGLE BUTTON */
+#music-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ff004f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: background 0.3s ease;
+    z-index: 1100;
+}
+
+#music-toggle:hover {
+    background: #007fe696;
+}
+
+@media (max-width: 600px) {
+    #music-toggle {
+        padding: 8px 12px;
+        font-size: 14px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
