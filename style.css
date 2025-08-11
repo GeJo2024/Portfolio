@@ -285,7 +285,8 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: #ff004f;
+    background: #3ee8ff8c;
+    --accent-gradient: linear-gradient(to right, #6cff52, #3ec5ff);
     color: white;
     border: none;
     padding: 10px 15px;
@@ -298,7 +299,7 @@ footer {
 }
 
 #music-toggle:hover {
-    background: #007fe696;
+    background: transparent;
 }
 
 @media (max-width: 600px) {
