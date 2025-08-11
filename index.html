@@ -95,21 +95,22 @@
     <!-- Contact -->
     <section id="contact">
         <h1 class="header"><span>Contact</span></h1>
-        <form action="#">
-            <div class="input-box">
-                <span>Full Name</span>
-                <input type="text" placeholder="Enter Your Full Name">
-            </div>
-            <div class="input-box">
-                <span>Your Email</span>
-                <input type="email" placeholder="Enter Your Email">
-            </div>
-            <div class="input-box">
-                <span>Your Message</span>
-                <textarea placeholder="Enter Your Message"></textarea>
-            </div>
-            <button type="submit" class="btn">Submit</button>
-        </form>
+        <form action="https://formspree.io/f/xdkdbogn" method="POST">
+    <div class="input-box">
+        <span>Full Name</span>
+        <input type="text" name="name" placeholder="Enter Your Full Name" required>
+    </div>
+    <div class="input-box">
+        <span>Your Email</span>
+        <input type="email" name="email" placeholder="Enter Your Email" required>
+    </div>
+    <div class="input-box">
+        <span>Your Message</span>
+        <textarea name="message" placeholder="Enter Your Message" required></textarea>
+    </div>
+    <button type="submit" class="btn">Submit</button>
+</form>
+
     </section>
 
     <!-- Footer -->
@@ -152,3 +153,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
